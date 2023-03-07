@@ -1,4 +1,5 @@
-echo "Welcome to skip Number program "
+echo "Welcome to skip Number program"
+echo "1 2 3 4 5 6 7 8 9 10"
 declare -A dict
 
 for i in {1..10}
@@ -13,7 +14,7 @@ case $i in
   esac
 case $i in
     1|2|4|7|9|10)
-      dict[$i]=$i
+dict[$i]=$i
 ;; 
   esac
 done
